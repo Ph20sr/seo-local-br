@@ -1,0 +1,12 @@
+{
+  "name": "seo-local-br",
+  "version": "1.0.0",
+  "description": "SEO local para sites de pequenas empresas brasileiras: JSON-LD de negócio local (endereço, horário, telefone), FAQ, breadcrumb, sitemap, robots.txt e meta tags, com validação de UF, CEP e telefone. Zero dependências.",
+  "type": "module",
+  "exports": { ".": "./src/index.js" },
+  "files": ["src"],
+  "scripts": { "test": "node --test" },
+  "engines": { "node": ">=20" },
+  "keywords": ["seo", "seo-local", "json-ld", "schema-org", "local-business", "sitemap", "robots", "google"],
+  "license": "MIT"
+}
